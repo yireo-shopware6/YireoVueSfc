@@ -1,0 +1,17 @@
+{
+  "name": "yireo/shopware6-vue-sfc",
+  "description": "Enabling Vue SFC",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Yireo\\VueSfc\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Yireo\\VueSfc\\YireoVueSfc",
+    "label": {
+      "en-GB": "Enabling Vue SFC"
+    }
+  }
+}
